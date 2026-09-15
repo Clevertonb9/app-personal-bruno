@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Aluno(){return <main><header><span className="brand">PERSONAL BRUNO</span><span>ÁREA DO ALUNO</span></header><section><p>Olá, aluno 👋</p><h1>Vamos treinar?</h1><div className="card"><h2>Treino de hoje</h2><p>Seu próximo treino estará disponível aqui.</p><Link href="/treino">Ver treino</Link></div></section></main>}
